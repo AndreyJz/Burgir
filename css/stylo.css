@@ -18,12 +18,18 @@
     font-size: 6vi;
 }
 
+.Wtitle{
+    color: #fff;
+    font-size: 4.5vi;
+}
+
 .subtitle{
     font-size: 2vi;
     color: #fff;
 }
 
 .vuiton{
+    box-shadow: 10px 6px 37px -13px gray;
     width: 11vw;
     height: 2.4vw;
     background-color: #ff702a;
@@ -70,6 +76,12 @@ section img{
     min-height: 500px;
     justify-content: space-around;
     align-items: center;
+}
+
+.block{
+    width: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .about{
