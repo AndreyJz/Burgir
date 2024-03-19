@@ -9,30 +9,30 @@
 
 .navtitle{
     color: #ff702a;
-    font-size: clamp(1.5em,4.5vw,2em);
-    padding-left: 2vw;
+    font-size: 3vi;
+    padding-left: 2vi;
 }
 
 .title{
     color: #ff702a;
-    font-size: clamp(2em,6vw,6em);
+    font-size: 6vi;
 }
 
 .subtitle{
-    font-size: clamp(1.6em,1vw,2em);
+    font-size: 2vi;
     color: #fff;
 }
 
 .vuiton{
-    width: 12vw;
-    height: 3vw;
+    width: 11vw;
+    height: 2.4vw;
     background-color: #ff702a;
 }
 
 .link{
     display: flex;
     color: #fff;
-    font-size: clamp(1.6em,1vw,2em);
+    font-size: 1vi;
 
     text-decoration: none;
     background-color: transparent;
@@ -49,7 +49,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 4vw;
+    padding-bottom: 4vi;
 }
 
 
@@ -59,8 +59,8 @@ nav{
 
 .home{
     display: flex;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding-right: 10vi;
+    padding-left: 10vi;
     justify-content: space-between;
     align-items: center;
 }
