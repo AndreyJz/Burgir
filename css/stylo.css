@@ -40,6 +40,13 @@
     justify-content: center;
 }
 
+section img{
+    height: auto;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+}
+
 nav a{
     text-decoration: none;
     color: #fff;
@@ -52,15 +59,21 @@ nav{
     padding-bottom: 4vi;
 }
 
-
-.img{
-    width: 45%;
+section img{
+    width: 80%;
 }
 
 .home{
     display: flex;
-    padding-right: 10vi;
-    padding-left: 10vi;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
