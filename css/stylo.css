@@ -86,7 +86,7 @@ nav{
 }
 
 #home img{
-    width: 70%;
+    width: 75%;
 }
 
 .home{
@@ -124,7 +124,7 @@ nav{
     min-height: 300px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     padding-bottom: 100px;
 }
 
@@ -225,7 +225,7 @@ nav{
     top: 4%;
 }
 
-.services{
+.services {
     display: flex;
     flex-wrap: wrap;
     width: auto;
@@ -237,22 +237,27 @@ nav{
     padding-bottom: 100px;
 }
 
-.conteiner_services{
-    width: 90%;
+.conteiner_services {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.servicio{
-    width: 100%;
+.servicio {
+    width: 80%; /* Adjusted width */
     aspect-ratio: 1/1;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position: relative;
-    
+    padding-bottom: 40px;
+}
+
+#services img{
+    width:50%;
 }
 
 #menu i{
@@ -277,6 +282,27 @@ nav{
 .precio{
     background-color: transparent;
     color: #FF702A;
+}
+
+.cuadroblanco{
+    background-image: url(../img/fondo-learn-more.png);
+    background-repeat: no-repeat;
+    display: flex;
+    
+    aspect-ratio: 3.5/1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 15%;
+    padding: 2rem;
+    position: relative;
+}
+
+#contact .title{
+    color: #0d0c12;
+    font-size: 3.4vi;
+    background-color: transparent;
 }
 
 @media screen and (max-width: 800px) {
