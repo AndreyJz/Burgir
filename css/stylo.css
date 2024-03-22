@@ -259,23 +259,22 @@ nav{
     width:50%;
 }
 
-#menu i{
-    background-color: transparent;
-    font-size: 200%;
-}
-
-#menu img{
-    width: 50%;
-    background-color: transparent;
-    padding-bottom: 8%;
-}
-
-#menu h2{
-    background-color: transparent;
-}
-
-#menu h4{
-    background-color: transparent;
+#menu{
+    i{
+        background-color: transparent;
+        font-size: 200%;
+    }
+    img{
+        width: 50%;
+        background-color: transparent;
+        padding-bottom: 8%;
+    }
+    h2{
+        background-color: transparent;
+    }
+    h4{
+        background-color: transparent;
+    }
 }
 
 .precio{
@@ -287,13 +286,12 @@ nav{
     background-image: url(../img/fondo-learn-more.png);
     background-repeat: no-repeat;
     display: flex;
-    
     aspect-ratio: 3.5/0.9;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    margin: 2% 15% 5% 15%;
+    margin: 2% 15% 10% 15%;
     padding: 2rem;
     position: relative;
 }
@@ -306,12 +304,14 @@ nav{
 
 footer{
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     display: flex;
     background-color: #1E1D2B;
     justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
     padding-top: 10px;
-    box-shadow:  1px 13px 20px 0px #0d0c12;
+    box-shadow:  1px 13px 200px 20px #0d0c12;
 }
 
 .info {
@@ -320,15 +320,26 @@ footer{
     flex-direction: column;
     color: #fff;
     font-weight: 500;
-  }
+}
+
+/* Me parece que se ve mas estetico asi, los encabezados de naranja excepto el de contacts q va blanco para que no se vea monotono */
 
 footer h3{
     color: #FF702A;
 }
 
+#social_media h3{ 
+    color: #fff;
+}
+
 .social{
     color: #FF702A;
     font-size: 30px;
+}
+
+footer hr {
+    width: 50px;
+    border-color: #FF702A;
 }
 
 @media screen and (max-width: 800px) {
@@ -365,5 +376,16 @@ footer h3{
     footer{
         display: flex;
         flex-direction: column;
+    }
+    .info{
+        display: flex;
+        width: max-content;
+        align-items: flex-start;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    footer #social_media{
+        align-self: center;
+        padding: 0;
     }
 }
